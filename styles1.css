@@ -1,0 +1,80 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1;font-family: Arial;
+-webkit-touch-callout: none !important;
+-webkit-user-select: none !important;
+-khtml-user-select: none !important;
+-moz-user-select: none !important;
+-ms-user-select: none !important;
+user-select: none !important;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+.canvasControls {
+    width: 340px;
+    margin: auto;
+}
+.canvasControls a {
+    display: inline-block;
+    background-color: #EEE;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: #000;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #555;
+    box-shadow: -2px -2px 3px #CCC inset;
+}
+.canvasControls a:hover {
+	background-color: #9CF2D9;
+}
+.canvasControls a#splitBlob, .canvasControls a#joinBlob {
+    width: 40px;
+    font-size: 20px;
+}
+.canvasControls a#gravityBlob {
+	margin-right: 20px;
+}
+#upArrow {
+    top: -17px;
+}
+#downArrow {
+    left: -36px;
+    bottom: -20px;
+}
+#rightArrow {
+    left: -36px;
+}
+#isee {
+    width: 220px;
+	left: 360px;
+	bottom: 30px;
+}
+#clickToPlay {
+    position: absolute;
+    background-color: rgba(0,0,0, 0.25);
+    top: 100px;
+    width: 1000px;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color: #FFF;
+    max-width: 100%;
+    font-weight: bold;
+}
